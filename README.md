@@ -9,9 +9,7 @@
 
 > See [here](https://taoensso.com/clojure/backers) if you're interested in helping support my open-source work, thanks! - Peter Taoussanis
 
-# Touchstone
-
-## Split testing library for Clojure
+# Touchstone: a split testing library for Clojure
 
 [A/B testing] is great for **conversion optimization**. We should all be doing more of it. But traditional A/B tests can be a nuisance to setup and monitor.
 
@@ -39,7 +37,8 @@ Haven't updated the lib in forever, but it's **stable and works well in producti
 Add the necessary dependency to your project:
 
 ```clojure
-[com.taoensso/touchstone "2.0.2"]
+Leiningen: [com.taoensso/touchstone "2.0.2"] ; or
+deps.edn:   com.taoensso/touchstone {:mvn/version "2.0.2"}
 ```
 
 And setup your namespace imports:
